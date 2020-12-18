@@ -59,6 +59,12 @@ html{
         display: none !important;
     }
 
+    /* YouCan */
+    .youCan__main .youCan__block{
+        background-size: 120px !important;
+        font-size: 24px !important;
+    }
+
     /* Price */
 
     .first__price, .second__price, .thirty__price{
@@ -644,14 +650,6 @@ html{
                     margin-bottom: 0px;
                     padding-bottom: 50px;
                 }
-               
-
-                /* FeedbackForm */
-/* 
-                .form-container{
-                    margin-bottom: 80px !important;
-                } */
-
 
                  /* Slider */
 
@@ -685,6 +683,10 @@ html{
 
         .form-container{
             margin-bottom: 70px !important;
+        }
+
+        .form-container .text-block_content{
+            font-size: 14px !important;
         }
 }
 
@@ -771,7 +773,7 @@ html{
     }
 
     .form-container .form-block .p{
-        font-size: 12px !important;
+        font-size: 10px !important;
         padding-bottom: 30px !important;
     }
 
