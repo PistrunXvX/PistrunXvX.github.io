@@ -50,13 +50,17 @@ html{
         background-image: url(img/main_img_advantage_laptop.jpg) !important;
 
         margin-bottom: 50px !important;
+        margin-top: 50px !important;
     }
 
     /* YouGet */
 
-
     .line__to{
         display: none !important;
+    }
+
+    .youGet__block article p{
+        font-size: 24px !important;
     }
 
     /* YouCan */
@@ -74,7 +78,7 @@ html{
     /* Slider */
 
     .carousel-item p {
-        font-size: 30px !important;
+        font-size: 24px !important;
     }
 
     .slider__container{
@@ -86,18 +90,62 @@ html{
         margin-bottom: 0% !important;
     }
 
+    .description__text{
+        font-size: 24px !important;
+    }
+
     /* Form */
 
     .form-container{
         margin-bottom: 0% !important;
+        padding-top: 40px !important;
+        padding-bottom: 40px !important;
+    }
+
+    .form-container .form-control{
+        padding: 10px 30px !important;
+        border-width: 2px !important;
+        font-size: 18px !important;
+    }
+
+    .form-container .fake{
+        width: 20px !important;
+        height: 20px !important;
+        border-width: 2px !important;
+    }
+
+    .form-container .link{
+        border-width: 1px !important;
+    }
+
+    .form-container .form-block .p{
+        padding-bottom: 20px !important;
+    }
+
+    .form__btn {
+        font-size: 24px !important;
+    }
+
+    .text_block__content{
+        font-size: 24px !important;
     }
 
     .form-container .text-block_content{
-        font-size: 30px !important;
+        font-size: 24px !important;
     }
 
     .form-container .text-block_content{
-        font-size: 30px !important;
+        font-size: 24px !important;
+    }
+
+    /* Cooperative */
+
+    .coop__main h2{
+        margin-bottom: 75px !important;
+    }
+
+    .coop__main img {
+        width: 150px !important;
     }
 }
 
