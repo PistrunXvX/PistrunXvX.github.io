@@ -75,6 +75,10 @@ html{
         background-size: 70px 70px !important;
     }
 
+    .price__block h2{
+        margin-bottom: 40px !important;
+    }
+
     /* Slider */
 
     .carousel-item p {
@@ -83,6 +87,10 @@ html{
 
     .slider__container{
         margin-bottom: 0px !important;
+    }
+
+    .title{
+        padding-top: 40px !important;
     }
 
     /* AboutUs */
