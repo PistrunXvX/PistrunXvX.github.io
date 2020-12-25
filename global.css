@@ -53,6 +53,10 @@ html{
         margin-top: 50px !important;
     }
 
+    .desc_text{
+        font-size: 21px !important;
+    }
+
     /* YouGet */
 
     .line__to{
@@ -61,6 +65,10 @@ html{
 
     .youGet__block article p{
         font-size: 24px !important;
+    }
+
+    .youGet__block article{
+        margin-top: 5% !important;
     }
 
     /* YouCan */
@@ -148,12 +156,30 @@ html{
 
     /* Cooperative */
 
+    .coop__main{
+        margin-bottom: 40px !important;
+    }
+
     .coop__main h2{
         margin-bottom: 75px !important;
     }
 
     .coop__main img {
-        width: 150px !important;
+        width: 100px !important;
+    }
+
+    .coop__main .row {
+        margin-bottom: 10px !important;
+    }
+
+    /* Header */
+
+    .main__text p{
+        font-size: 20px !important;
+    }
+
+    .main__text h1 {
+        font-size: 28px !important;
     }
 }
 
