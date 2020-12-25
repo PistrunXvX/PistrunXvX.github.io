@@ -795,6 +795,10 @@ html{
         font-size: 13px !important;
     }
 
+    .main__text p {
+        font-size: 12px !important;
+    }
+
     .phone__nav a{
         font-size: 12px !important;
 
