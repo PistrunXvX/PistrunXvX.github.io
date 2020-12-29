@@ -2,7 +2,7 @@ html{
     scroll-behavior: smooth;
 }
 
-@media screen and (max-width: 1898.98px) {
+@media screen and (max-width: 4000px) {
     /* YouGet */
     .icon__yellow:after,
     .icon__blue:after{
@@ -54,7 +54,7 @@ html{
     }
 
     .desc_text{
-        font-size: 21px !important;
+        font-size: 22px !important;
     }
 
     /* YouGet */
@@ -67,9 +67,16 @@ html{
         font-size: 24px !important;
     }
 
-    .youGet__block article{
-        margin-top: 5% !important;
+    .youGet__block .first__block, .youGet__block .thirty__block, .youGet__block .fifty__block {
+        padding-right: 30% !important;
+        background-position: 90% 50% !important;
     }
+
+    .youGet__block .second__block, .youGet__block .fouty__block, .youGet__block .sixty__block{
+        padding-left: 30% !important;
+        background-position: 10% 50% !important;
+    }
+    
 
     /* YouCan */
     .youCan__main .youCan__block{
@@ -80,7 +87,8 @@ html{
     /* Price */
 
     .first__price, .second__price, .thirty__price{
-        background-size: 70px 70px !important;
+        background-size: 50px 50px !important;
+        padding-top: 100px !important;
     }
 
     .price__block h2{
@@ -97,7 +105,7 @@ html{
         margin-bottom: 0px !important;
     }
 
-    .title{
+    .slider__container .title{
         padding-top: 40px !important;
     }
 
@@ -136,6 +144,7 @@ html{
 
     .form-container .form-block .p{
         padding-bottom: 20px !important;
+        font-size: 12px !important;
     }
 
     .form__btn {
@@ -144,6 +153,10 @@ html{
 
     .text_block__content{
         font-size: 24px !important;
+    }
+
+    .form-container .text-block{
+        padding-right: 0px !important;
     }
 
     .form-container .text-block_content{
@@ -156,10 +169,6 @@ html{
 
     /* Cooperative */
 
-    .coop__main{
-        margin-bottom: 40px !important;
-    }
-
     .coop__main h2{
         margin-bottom: 75px !important;
     }
@@ -168,8 +177,8 @@ html{
         width: 100px !important;
     }
 
-    .coop__main .row {
-        margin-bottom: 10px !important;
+    .coop__main .row{
+        margin-bottom: 0% !important;
     }
 
     /* Header */
@@ -1291,3 +1300,6 @@ html{
         }
     }
 
+.container__wrapper{
+    max-width: 1300px;
+}
