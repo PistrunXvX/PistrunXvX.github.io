@@ -10,12 +10,12 @@ html{
     }
 
     .youGet__block .first__block, .youGet__block .thirty__block, .youGet__block .fifty__block {
-        padding-right: 40% !important;
+        padding-right: 10% !important;
 
     }
 
     .youGet__block .second__block, .youGet__block .fouty__block, .youGet__block .sixty__block{
-        padding-left: 40% !important;
+        padding-left: 10% !important;
     }
 
     .blue__line__1, .blue__line__2, .blue__line__3,
@@ -34,13 +34,21 @@ html{
                   
             }
             .footer_container .contacts_block .title{
-                font-size: 32px;
+                font-size: 18px;
                 
             }
 
             .footer_container .contacts_block .desc{
-                font-size: 15px;
+                font-size: 12px;
                
+            }
+
+            .footer_container .social_title__text {
+                font-size: 18px !important;
+            }
+
+            .footer_container .social__icon a{
+                padding: 10px !important;
             }
     
     /* Advantage */
@@ -54,15 +62,15 @@ html{
     }
 
     .desc_text{
-        font-size: 20px !important;
+        font-size: 18px !important;
     }
 
     .title__one{
-        font-size: 50px !important;
+        font-size: 32px !important;
     }
 
     .title__two{
-        font-size: 40px !important;
+        font-size: 32px !important;
         margin-bottom: 720px !important;
     }
 
@@ -77,24 +85,40 @@ html{
     }
 
     .youGet__block article p{
-        font-size: 24px !important;
+        font-size: 18px !important;
     }
 
     .youGet__block .first__block, .youGet__block .thirty__block, .youGet__block .fifty__block {
-        padding-right: 30% !important;
+        padding-right: 10% !important;
         background-position: 90% 50% !important;
     }
 
     .youGet__block .second__block, .youGet__block .fouty__block, .youGet__block .sixty__block{
-        padding-left: 30% !important;
+        padding-left: 10% !important;
         background-position: 10% 50% !important;
+    }
+
+    .youGet__block .test_vector svg{
+        width: 100px !important;
+    }
+
+    .youGet__block article h3{
+        font-size: 32px !important;
+    }
+
+    .youGet__block h2{
+        font-size: 32px !important;
     }
     
 
     /* YouCan */
     .youCan__main .youCan__block{
         background-size: 120px !important;
-        font-size: 24px !important;
+        font-size: 18px !important;
+    }
+
+    .youCan__main h2 {
+        font-size: 32px !important;
     }
 
     /* Price */
@@ -104,14 +128,31 @@ html{
         padding-top: 100px !important;
     }
 
+    .price__block h3{
+        font-size: 32px !important;
+    }
+
+    .price__block .text__price{
+        font-size: 18px !important;
+    }
+
+    .price__block .month__price{
+        font-size: 18px !important;
+    }
+
+    .price__block .remark{
+        font-size: 16px !important;
+    }
+
     .price__block h2{
         margin-bottom: 40px !important;
+        font-size: 32px !important;
     }
 
     /* Slider */
 
     .carousel-item p {
-        font-size: 24px !important;
+        font-size: 18px !important;
     }
 
     .slider__container{
@@ -122,18 +163,38 @@ html{
         padding-top: 40px !important;
     }
 
+    .slider__container .access__block{
+        margin-top: 0px !important;
+    }
+
     /* AboutUs */
     .about__block{
         margin-bottom: 0% !important;
     }
 
     .description__text{
-        font-size: 24px !important;
+        font-size: 18px !important;
+    }
+
+    .title__text{
+        font-size: 32px !important;
+    }
+
+    .slider__container .title {
+        font-size: 32px !important;
+    }
+
+    .slider__container .text_block__content {
+        font-size: 18px !important;
+    }
+
+    .slider__container .form__btn{
+        font-size: 18px !important;
     }
 
     /* Form */
 
-    .form-container{
+    /* .form-container{
         margin-bottom: 0% !important;
         padding-top: 40px !important;
         padding-bottom: 40px !important;
@@ -180,16 +241,17 @@ html{
 
     .form-container .text-block_content{
         font-size: 24px !important;
-    }
+    } */
 
     .form-container .text-block_content{
-        font-size: 24px !important;
+        font-size: 18px !important;
     }
 
     /* Cooperative */
 
     .coop__main h2{
         margin-bottom: 75px !important;
+        font-size: 32px !important;
     }
 
     .coop__main img {
@@ -208,6 +270,12 @@ html{
 
     .main__text h1 {
         font-size: 28px !important;
+    }
+
+    /* Sertificat */
+
+    .sertificat__container h2 {
+        font-size: 32px !important;
     }
 }
 
