@@ -50,6 +50,14 @@ html{
             .footer_container .social__icon a{
                 padding: 10px !important;
             }
+
+            .footer_container{
+                padding-top: 20px !important;
+            }
+
+            .footer_container .nav_footer{
+                padding-bottom: 0px !important;
+            }
     
     /* Advantage */
      
@@ -71,7 +79,7 @@ html{
 
     .title__two{
         font-size: 32px !important;
-        margin-bottom: 720px !important;
+        /* margin-bottom: 720px !important; */
     }
 
     .advantage__list{
