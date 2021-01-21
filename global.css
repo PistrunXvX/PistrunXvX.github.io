@@ -63,7 +63,9 @@ html{
      
     .advantage{
         background-size: cover !important;
-        background-image: url(img/main_img_advantage_laptop.jpg) !important;
+        background-color: #EEF0F2 !important;
+        /* background-image: url(img/main_img_advantage_laptop.jpg) !important; */
+        background-image: none !important;
 
         margin-bottom: 50px !important;
         margin-top: 50px !important;
@@ -75,15 +77,16 @@ html{
 
     .title__one{
         font-size: 32px !important;
+        padding-top: 30px !important;
     }
 
     .title__two{
         font-size: 32px !important;
-        /* margin-bottom: 720px !important; */
+        margin-bottom: 120px !important;
     }
 
     .advantage__list{
-        padding-bottom: 100px !important;
+        padding-bottom: 30px !important;
     }
 
     /* YouGet */
