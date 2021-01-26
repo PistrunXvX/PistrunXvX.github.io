@@ -66,7 +66,7 @@ html{
         /* background-color: #EEF0F2 !important; */
         background-image: url(img/Laptop_bg.jpg) !important;
         /* background-image: none !important; */
-
+        color: #fff !important;
         margin-bottom: 50px !important;
         margin-top: 50px !important;
     }
@@ -83,6 +83,10 @@ html{
     .title__two{
         font-size: 32px !important;
         margin-bottom: 120px !important;
+    }
+
+    .title_text_number{
+        border-color: #fff !important;
     }
 
     .advantage__list{
