@@ -63,6 +63,7 @@ html{
      
     .advantage{
         background-size: cover !important;
+        background-attachment: fixed;
         /* background-color: #EEF0F2 !important; */
         background-image: url(img/Laptop_bg.jpg) !important;
         /* background-image: none !important; */
@@ -82,7 +83,7 @@ html{
 
     .title__two{
         font-size: 32px !important;
-        margin-bottom: 120px !important;
+        margin-bottom: 50px !important;
     }
 
     .title_text_number{
