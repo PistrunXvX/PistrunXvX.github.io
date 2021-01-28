@@ -79,6 +79,9 @@ html{
     .title__one{
         font-size: 32px !important;
         padding-top: 30px !important;
+
+        padding-bottom: 0px !important;
+        line-height: 50% !important;
     }
 
     .title__two{
