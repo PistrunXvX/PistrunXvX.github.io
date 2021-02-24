@@ -329,6 +329,16 @@ html{
     .sertificat__container h2 {
         font-size: 32px !important;
     }
+
+    /* pop_up_thanks */
+
+    .pop_up_bg{
+        height: 200px !important;
+    }
+
+    #thanksModal h2{
+        font-size: 18px !important;
+    }
 }
 
 
@@ -740,6 +750,12 @@ html{
 
     .remove_small_display{
         display: none;
+    }
+
+    /* thanksModal */
+
+    #thanksModal .modal-content{
+        width: 90% !important;
     }
  }
 
@@ -1377,6 +1393,14 @@ html{
                         margin: 0px;
                         margin-bottom:40px; 
                     }
+
+                    .pop_up_bg{
+                        height: 100px !important;
+                    }
+                    
+                    #thanksModal p{
+                       font-size: 12px !important;
+                    }
                 
 }
 
@@ -1497,3 +1521,6 @@ html{
 .container__wrapper{
     max-width: 1300px;
 }
+
+/* thanksModal */
+
