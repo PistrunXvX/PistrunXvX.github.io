@@ -6,7 +6,7 @@ $email = $_POST['email'];
 
 // $to = 'sinitsyna@uprav.ru';
 $to = 'killerdjek@gmail.com';
-$subject = 'Доступ к личному кабинету';
+$subject = 'Получить видеозапись';
 $message = "Имя: $name \n
             Телефон: $phone \n
             Email: $email";

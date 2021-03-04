@@ -5,8 +5,9 @@ $secondName = $_POST['secondName'];
 $phone = $_POST['phone'];
 $email = $_POST['email'];
 
-$to = 'sinitsyna@uprav.ru';
-$subject = 'Заявка с сайта Корпоративного Онлайн Университета на отправку модуля';
+// $to = 'sinitsyna@uprav.ru';
+$to = 'killerdjek@gmail.com';
+$subject = 'Доступ к личному кабинету';
 $message = "Имя: $name \n
             Фамилия: $secondName \n
             Телефон: $phone \n
